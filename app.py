@@ -124,7 +124,7 @@ app.layout = html.Div(
 def update_data(n, val):  # inpur parameter(s)
     if n == None:
         return '''This is a single-page web application using Dash (a python framework) and some machine learning models which will show company information (logo, registered name and description) and stock plots based on the stock code given by the user. Also the ML model will enable the user to get predicted stock prices for the date inputted by the user.
-        This Project is Made By Team Members DEEPIKA SHESHABUTTER, BALAJI SADHU, NEHA PREMA VELMURUGAN, SRUJAN BODA Students of M.TECH.INTEGRATED 3RD YEAR at VELLORE INSTITUTE OF TECHNOLOGY, BHOPAL.
+        This Project is Made By DEEPIKA SHESHABUTTER Student of M.TECH.INTEGRATED 3RD YEAR at VELLORE INSTITUTE OF TECHNOLOGY, BHOPAL.
         ''',"https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RvY2slMjBtYXJrZXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80", "About Us", None, None, None
         # raise PreventUpdate
     else:
